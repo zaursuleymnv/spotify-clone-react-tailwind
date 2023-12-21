@@ -65,6 +65,38 @@ const DownloadIcon = ({size}) => {
 	)
 }
 
+const PrevIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<polyline stroke="currentColor" points="16 4 7 12 16 20" fill="none"/>
+		</svg>
+	)
+}
+
+const NextIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<polyline stroke="currentColor" points="8 4 17 12 8 20" fill="none"/>
+		</svg>
+	)
+}
+
+const DownDirIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path fill="currentColor" d="M3 6l5 5.794L13 6z"/>
+		</svg>
+	)
+}
+
+const ExternalIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path fill="currentColor" d="M15 7V1H9v1h4.29L7.11 8.18l.71.71L14 2.71V7h1zM1 15h12V9h-1v5H2V4h5V3H1v12z"/>
+		</svg>
+	)
+}
+
 const Icon = ({name, size = 24}) => {
     const icons = {
         home: HomeIcon,
@@ -74,6 +106,10 @@ const Icon = ({name, size = 24}) => {
         heart: HeartIcon,
 		heartFilled: HeartFilledIcon,
         download: DownloadIcon,
+        prev: PrevIcon,
+        next: NextIcon,
+        downDir:DownDirIcon,
+        external: ExternalIcon,
     }
 
     const Component = icons[name]

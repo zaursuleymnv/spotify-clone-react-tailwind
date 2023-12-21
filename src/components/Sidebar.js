@@ -7,7 +7,7 @@ import DownloadApp from './Sidebar/DownloadApp'
 
 export default function Sidebar() {
   return (
-    <aside className='w-60 pt-6 bg-black flex flex-col'>
+    <aside className='w-60 pt-6 bg-black flex flex-col flex-shrink-0'>
         <a href="#" className='mb-7 px-6'>
           <img src={logo} className='h-10' alt="" />
         </a>
