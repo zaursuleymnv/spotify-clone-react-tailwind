@@ -97,6 +97,14 @@ const ExternalIcon = ({size}) => {
 	)
 }
 
+const PlayIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<polygon points="21.57 12 5.98 3 5.98 21 21.57 12" fill="#000"/>
+		</svg>
+	)
+}
+
 const Icon = ({name, size = 24}) => {
     const icons = {
         home: HomeIcon,
@@ -110,6 +118,7 @@ const Icon = ({name, size = 24}) => {
         next: NextIcon,
         downDir:DownDirIcon,
         external: ExternalIcon,
+		play: PlayIcon,
     }
 
     const Component = icons[name]
