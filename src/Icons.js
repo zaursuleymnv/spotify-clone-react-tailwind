@@ -178,6 +178,16 @@ const FullScreenIcon = ({size}) => {
 	)
 }
 
+const FullScreenOffIcon = ({size}) => {
+	return (
+		<svg viewBox="0 0 24 24" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M22.125 2.582l-.707-.707-4.273 4.273L15 4.001v5h5l-2.146-2.146 4.271-4.273zM6.147 17.146l-4.273 4.272.707.707 4.273-4.272L9 19.999v-5H4l2.147 2.147z"
+				fill="currentColor"/>
+		</svg>
+	)
+}
+
 const PictureInPictureIcon = ({size}) => {
 	return (
 		<svg viewBox="0 0 16 16" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
@@ -272,6 +282,7 @@ const Icon = ({name, size = 24}) => {
 		shuffle: ShuffleIcon,
 		queue: QueueIcon,
 		fullScreen: FullScreenIcon,
+		fullScreenOff: FullScreenOffIcon,
 		pictureInPicture: PictureInPictureIcon,
 		device: DeviceIcon,
 		volumeMuted: VolumeMutedIcon,
