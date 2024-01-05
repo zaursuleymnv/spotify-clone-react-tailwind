@@ -583,8 +583,20 @@ html, body, #root {
   bottom: 0.5rem;
 }
 
+.bottom-36 {
+  bottom: 9rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .left-0 {
   left: 0px;
+}
+
+.left-8 {
+  left: 2rem;
 }
 
 .right-0 {
@@ -597,6 +609,10 @@ html, body, #root {
 
 .right-2 {
   right: 0.5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
 }
 
 .top-0 {
@@ -615,16 +631,12 @@ html, body, #root {
   top: 100%;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.top-14 {
+  top: 3.5rem;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
-.right-6 {
-  right: 1.5rem;
+.top-10 {
+  top: 2.5rem;
 }
 
 .z-10 {
@@ -634,6 +646,14 @@ html, body, #root {
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-1\.5 {
+  margin-bottom: 0.375rem;
 }
 
 .mb-4 {
@@ -680,12 +700,12 @@ html, body, #root {
   margin-top: 1.5rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mt-0 {
+  margin-top: 0px;
 }
 
-.mb-1\.5 {
-  margin-bottom: 0.375rem;
+.mt-0\.5 {
+  margin-top: 0.125rem;
 }
 
 .line-clamp-1 {
@@ -730,6 +750,10 @@ html, body, #root {
   height: 3.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-24 {
   height: 6rem;
 }
@@ -770,16 +794,16 @@ html, body, #root {
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .w-12 {
   width: 3rem;
 }
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-3 {
@@ -834,8 +858,8 @@ html, body, #root {
   width: 100%;
 }
 
-.w-16 {
-  width: 4rem;
+.w-24 {
+  width: 6rem;
 }
 
 .min-w-\[11\.25rem\] {
@@ -906,10 +930,6 @@ html, body, #root {
   flex-direction: column;
 }
 
-.flex-col-reverse {
-  flex-direction: column-reverse;
-}
-
 .items-center {
   align-items: center;
 }
@@ -934,8 +954,16 @@ html, body, #root {
   column-gap: 0.5rem;
 }
 
+.gap-x-3 {
+  column-gap: 0.75rem;
+}
+
 .gap-x-4 {
   column-gap: 1rem;
+}
+
+.gap-x-5 {
+  column-gap: 1.25rem;
 }
 
 .gap-x-6 {
@@ -946,12 +974,8 @@ html, body, #root {
   row-gap: 2rem;
 }
 
-.gap-x-5 {
-  column-gap: 1.25rem;
-}
-
-.gap-x-3 {
-  column-gap: 0.75rem;
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
@@ -1192,12 +1216,30 @@ html, body, #root {
   line-height: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .tracking-tight {
@@ -1243,12 +1285,24 @@ html, body, #root {
   opacity: 0;
 }
 
+.opacity-25 {
+  opacity: 0.25;
+}
+
 .opacity-70 {
   opacity: 0.7;
 }
 
-.opacity-25 {
-  opacity: 0.25;
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-90 {
+  opacity: 0.9;
 }
 
 .shadow-spotify {
